@@ -1,0 +1,37 @@
+﻿#log_in {
+    width: 50%;
+    min-height: 500px;
+    margin: 0px auto;
+    border: 1px solid #3d8af7;
+    padding= 20%;
+}
+#header_color {
+    color: #006ce5;
+}
+#sub_theme {
+    font-size: 15px;
+    color: #7a7a7a;
+}
+.perma_container {
+    background: rgb(10,97,188);
+    background: linear-gradient(90deg, rgba(10,97,188,1) 5%, rgba(63,179,236,1) 25%);
+}
+.btn-primary {
+    background-color: #4dd7fa;
+    color: #FFF;
+    border-color: #3d8af7;
+}
+
+.vertical-center {
+    min-height: 80vh; 
+    display: flex;
+    align-items: center;
+}
+.horizontal-center {
+    min-height: 80wh;
+    display: flex;
+    align-items: center;
+}
+.padding_left {
+    padding-left: 30px;
+}
