@@ -2,32 +2,36 @@
     ViewBag.Title = "Home Page";
 }
 
-<div class="container vertical-center" >
-
-    <section id="log_in">
-
-        <h2 class="top-left padding_left" id="header_color">Iniciar Sesión</h2>
-        <p class="lead padding_left" id="sub_theme">
-            Si ya eres socio Airline Plus ingresa con tus datos de siempre.
+<div class="login-container">
+    <div class="container" id="log_in">
+        <h2 class="top-left ml-2 md-2" id="header_color">Iniciar Sesión</h2>
+        <p class="lead ml-2 md-2" id="sub_theme">
+            Si ya eres socio Airline Plus ingresa con tus datos de siempre
         </p>
         <div class="container">
-            <div class="row padding_left horizontal-center">
-                <label class="col-md-1 ">Email</label>
-                <input type="text" class="form-control col-md-11" placeholder="email Usuario">
-
+            <div class="row ml-2">
+                <div class="col col-3">
+                    <label>Email</label>
+                </div>
+                <div class="col col-9">
+                    <input type="text" class="form-control" placeholder="email Usuario">
+                </div>
             </div>
-            <div class="row padding_left horizontal-center">
-                <label class="col-md-1 ">Contraseña</label>
-                <input type="text" class="form-control col-md-11" placeholder="contraseña Usuario">
-
+            <div class="row ml-2">
+                <div class="col col-3">
+                    <label>Contraseña</label>
+                </div>
+                <div class="col col-9">
+                    <input type="text" class="form-control" placeholder="contraseña Usuario">
+                </div>
             </div>
-            <div>
-                <button type="button" class="btn btn-primary">Iniciar Sesión</button>
+            <div class="row">
+                <div class="col-9"></div>
+                <button type="button" class="btn btn-primary col-3">Iniciar Sesión</button>
+                
             </div>
         </div>
-        
-        
-    </section>
-       
+
+    </div>
 </div>
 
