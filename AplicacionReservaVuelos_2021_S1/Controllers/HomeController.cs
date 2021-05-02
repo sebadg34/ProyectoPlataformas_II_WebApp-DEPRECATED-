@@ -31,5 +31,10 @@ namespace AplicacionReservaVuelos_2021_S1.Controllers
         {
             return View();
         }
+
+        public ActionResult RegisterCustomer()
+        {
+            return View();
+        }
     }
 }

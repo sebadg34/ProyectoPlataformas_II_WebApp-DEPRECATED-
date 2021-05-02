@@ -1,0 +1,105 @@
+﻿
+@{
+    ViewBag.Title = "RegisterCustomer";
+}
+
+<head>
+    <link rel="stylesheet" href="~/Content/registerCustomerStyle.css" />
+</head>
+
+
+<div class="container vertical-center">
+
+    <section id="register_user">
+        <div class="container-fluid">
+            <div class="row form-group">
+                <h2 class="top-left ml-2 row-bottom-margin" id="header_color">Registrar Usuario</h2>
+            </div>
+            <div class="row form-group">
+                <div id="register_user_left">
+
+                    <h3 id="sub_theme">
+                        Datos del usuario
+                    </h3>
+
+                    <div class="row form-group">
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Apellido">
+                        </div>
+                    </div>
+
+                    <div class="row form-group-mini">
+                        <div class="col-12">
+                            <select class="form-control">
+                                <option value="" disabled selected>Rut/Num. Pasaporte</option>
+                                <option value="rut">Rut</option>
+                                <option value="pasaporte">Número de pasaporte</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Rut/Num. Pasaporte">
+                            <small class="form-text text-muted space">
+                                Sin guión ni punto.
+                            </small>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Correo electrónico">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-8">
+                            <input type="text" class="form-control" placeholder="Dirección">
+                        </div>
+                        <div class="col-4">
+                            <input type="text" class="form-control" placeholder="Número">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Número de teléfono">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="register_user_right">
+                    <h3 id="sub_theme">
+                        Contacto de emergencia
+                    </h3>
+
+                    <div class="row form-group">
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control" placeholder="Apellido">
+                        </div>
+                    </div>
+
+                    <div class="row form-group-max">
+                        <div class="col-12">
+                            <input type="text" class="form-control" placeholder="Número de teléfono">
+                        </div>
+                    </div>
+
+                    <div class="row  flex-row-reverse no-gutters for">
+                        <button type="button" class="btn btn-primary">Registrar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+

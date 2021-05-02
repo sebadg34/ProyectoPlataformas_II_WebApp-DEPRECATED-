@@ -1,0 +1,70 @@
+﻿#register_user {
+    width: 80%;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #3d8af7;
+    min-height: 70vh;
+    display: flex;
+}
+
+#register_user_left {
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#register_user_right {
+    width: 40%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#sub_theme {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+.form-group-mini {
+    margin-bottom: 15px;
+}
+.form-group-max {
+    margin-bottom: 75%;
+}
+.row-bottom-margin {
+    margin-bottom: 40px;
+}
+
+.space {
+    margin-left: 25%;
+}
+
+select {
+    background-image: linear-gradient(45deg, transparent 50%, #3d8af7 60%), linear-gradient(135deg, #3d8af7 40%, transparent 50%) !important;
+    background-position: calc(100% - 30px) 14px, calc(100% - 20px) 14px, 100% 0;
+    background-size: 10px 10px, 10px 10px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.perma_container {
+    background: rgb(10,97,188);
+    background: linear-gradient(90deg, rgba(10,97,188,1) 5%, rgba(63,179,236,1) 25%);
+    height: 70px
+}
+
+#header_color {
+    color: #006ce5;
+}
+
+.btn-primary {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #4dd7fa !important;
+    color: #FFF;
+    border-color: #3d8af7 !important;
+}
