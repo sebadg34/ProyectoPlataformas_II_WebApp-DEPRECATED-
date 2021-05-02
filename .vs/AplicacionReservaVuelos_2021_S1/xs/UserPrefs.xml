@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{A01D914B-9849-4142-A214-71CE4747252D}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AplicacionReservaVuelos_2021_S1/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="AplicacionReservaVuelos_2021_S1/Views/Home/Index.cshtml" Line="44" Column="92" />
+      <File FileName="AplicacionReservaVuelos_2021_S1/Views/Shared/_Layout.cshtml" />
+      <File FileName="AplicacionReservaVuelos_2021_S1/Views/Home/MenuCliente.cshtml" />
+      <File FileName="AplicacionReservaVuelos_2021_S1/Content/makeMeisterStyles.css" />
+      <File FileName="AplicacionReservaVuelos_2021_S1/Content/Site.css" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AplicacionReservaVuelos_2021_S1" expanded="True">
+            <Node name="AplicacionReservaVuelos_2021_S1" expanded="True">
+              <Node name="Content" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Scripts" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AplicacionReservaVuelos__2021__S1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

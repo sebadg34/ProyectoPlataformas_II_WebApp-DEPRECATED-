@@ -2,36 +2,84 @@
     ViewBag.Title = "Home Page";
 }
 
+<head>
+
+
+    <link rel="stylesheet" href="~/Content/makeMeisterStyles.css" />
+</head>
+
+
+<style type="text/css">
+
+    .btn-primary{
+
+        margin-top:5px;
+
+    }
+    #registrar {
+        font-size: 14px;
+        margin-top:10px;
+    }
+
+    #log_in {
+
+        margin-top:20px;
+
+    }
+
+</style>
+
+
 <div class="login-container">
-    <div class="container" id="log_in">
+    <div class="jumbotron" id="log_in">
         <h2 class="top-left ml-2 md-2" id="header_color">Iniciar Sesión</h2>
         <p class="lead ml-2 md-2" id="sub_theme">
             Si ya eres socio Airline Plus ingresa con tus datos de siempre
         </p>
         <div class="container">
-            <div class="row ml-2">
-                <div class="col col-3">
-                    <label>Email</label>
+            <div class="row justify-content-center">
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <label>Email</label>
+
+                    </div>
+                    <div class="row">
+                        <label>Contraseña</label>
+                    </div>
+
+                    <div class="row">
+                        
+                        <label id="registrar">¿No está registrado? haz click aqui </label>
+                        
+                    </div>
+
                 </div>
-                <div class="col col-9">
-                    <input type="text" class="form-control" placeholder="email Usuario">
+                <div class="col-md-6">
+                    <div class="row">
+                        <input type="text" class="form-control" placeholder="email Usuario">
+
+                    </div>
+                    <div class="row">
+                        <input type="text" class="form-control" placeholder="contraseña Usuario">
+
+                    </div>
+                    <div class="row flex-row-reverse">
+                        <button type="button" class="btn btn-primary offset-md-1">Iniciar Sesión</button>
+
+                    </div>
+
                 </div>
+
             </div>
-            <div class="row ml-2">
-                <div class="col col-3">
-                    <label>Contraseña</label>
-                </div>
-                <div class="col col-9">
-                    <input type="text" class="form-control" placeholder="contraseña Usuario">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-9"></div>
-                <button type="button" class="btn btn-primary col-3">Iniciar Sesión</button>
-                
-            </div>
+            
+
         </div>
 
+
+
     </div>
+
+    
 </div>
 

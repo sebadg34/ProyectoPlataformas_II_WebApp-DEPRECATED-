@@ -24,6 +24,8 @@
     height: 70px
 }
 .btn-primary {
+    margin-left: 0px;
+    margin-right: 0px;
     background-color: #4dd7fa !important;
     color: #FFF;
     border-color: #3d8af7 !important;
