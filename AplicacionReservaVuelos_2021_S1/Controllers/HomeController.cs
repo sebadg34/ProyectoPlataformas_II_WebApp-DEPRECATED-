@@ -27,13 +27,40 @@ namespace AplicacionReservaVuelos_2021_S1.Controllers
             return View();
         }
 
-        public ActionResult MenuCliente()
+        public ActionResult RegisterCustomer()
         {
             return View();
         }
 
-        public ActionResult RegisterCustomer()
+        public ActionResult AdminMenu()
         {
+            ViewData["Req"] = "Registrar Vuelo";
+            ViewData["Inicio"] = "si";
+            ViewData["Nombre"] = "Eduard Tomas";
+            return View();
+        }
+
+        public ActionResult AdminFlightList()
+        {
+            ViewData["Req"] = "Registrar Vuelo";
+            ViewData["Inicio"] = "no";
+            ViewData["Nombre"] = "Eduard Tomas";
+            return View();
+        }
+
+        public ActionResult MenuCliente()
+        {
+            ViewData["Req"] = "Reservar Vuelo";
+            ViewData["Inicio"] = "si";
+            ViewData["Nombre"] = "Eduard Tomas";
+            return View();
+        }
+
+        public ActionResult CostumerFlightList()
+        {
+            ViewData["Req"] = "Reservar Vuelo";
+            ViewData["Inicio"] = "no";
+            ViewData["Nombre"] = "Eduard Tomas";
             return View();
         }
     }

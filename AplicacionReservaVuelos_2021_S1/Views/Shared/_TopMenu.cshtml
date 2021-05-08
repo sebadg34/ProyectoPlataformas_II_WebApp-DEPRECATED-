@@ -1,0 +1,72 @@
+﻿<html>
+<head>
+    <link rel="stylesheet" href="~/Content/menuStyles.css" />
+</head>
+
+
+<body id="body">
+
+        <div class="perma_container_menu no-gutters for">
+            <div class="float-left">
+                <div class="row form-group">
+                    @{
+                        var inicio = ViewData["Inicio"] as string;
+                    }
+                    @if (inicio == "si")
+                    {
+                        <div class="row  flex-row-reverse no-gutters for">
+                            <button type="button" class="btn btn-primary">
+                                <h3 id="sub_theme">
+                                    Inicio
+                                </h3>
+                            </button>
+
+                        </div>
+                        <div class="row  flex-row-reverse no-gutters for">
+                            <button type="button" class="btn btn-primary-2">
+                                <h3 id="sub_theme">
+                                    @ViewData["Req"]
+                                </h3>
+                            </button>
+
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="row  flex-row-reverse no-gutters for">
+                            <button type="button" class="btn btn-primary-2">
+                                <h3 id="sub_theme">
+                                    Inicio
+                                </h3>
+                            </button>
+
+                        </div>
+                        <div class="row  flex-row-reverse no-gutters for">
+                            <button type="button" class="btn btn-primary">
+                                <h3 id="sub_theme">
+                                    @ViewData["Req"]
+                                </h3>
+                            </button>
+
+                        </div>
+                    }
+                </div>
+            </div>
+            <div class="float-right">
+                <div class="row form-group">
+                    <h3 id="sub_theme_2">
+                        @ViewData["Nombre"]
+                    </h3>
+                    <div class="row  flex-row-reverse no-gutters for">
+                        <button type="button" class="btn btn-primary-3">
+                            <h3 id="sub_theme">
+                                Cerrar Sesión
+                            </h3>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
